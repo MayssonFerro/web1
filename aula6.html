@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulários</title>
+    </head>
+
+    <body>
+        <!-- input cria formularios -->
+        <label for="txtName">Digite seu Nome</label>
+        <input type="text" name="txtName" id="txtName" placeholder="Seu nome aqui" />
+        <!-- type para determinar o tipo de input -->
+        <!-- name e id devem ser iguais em cada input, e não se repetir em outro input -->
+        <!-- use <label> ao invés de <p>, e for="id do input" -->
+            <!-- placeholder é a marca d'agua dentro da caixa de texto -->
+
+        <label for="txtPwd">Digite sua password</label>
+        <input type="password" name="txtPwd" id="txtPwd" >
+
+        <label>Escolha uma data</label>
+        <input type="date" name="txtDate">
+
+        <input type="button" value="Clique em mim" id="btnEnviar" name="btnEnviar">
+
+        <input type="checkbox" name="chk" id="chk">
+        <input type="checkbox" name="chk" id="chk">
+        <input type="checkbox" name="chk" id="chk">
+        <input type="checkbox" name="chk" id="chk">
+
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">JavaScript</label><br>
+
+        <select name="sltLangue" id="sltLangue">
+            <option>HTML</option>
+            <option>Javascript</option>
+            <option>Python</option>
+            <option>Java</option>
+        </select>
+        
+        <input type="submit">
+
+    </body>
+</html>
