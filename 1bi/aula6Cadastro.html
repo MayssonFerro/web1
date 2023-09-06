@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cadastro</title>
+    </head>
+
+    <body>
+        <b>Cadastre-se</b>
+        <table border="1px">
+            <tr>
+                <td>
+                    <label for="txtName">Primeiro Nome</label><br>
+                    <input type="text" name="txtName" id="txtName" placeholder="Digite seu primeiro nome">
+                </td>
+                <td>
+                    <label for="txtLastName">Sobrenome</label><br>
+                    <input type="text" name="txtLastName" id="txtLastName" placeholder="Digite seu sobrenome nome">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">E-mail</label><br>
+                    <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+                </td>
+                <td>
+                    <label for="phone">Celular</label><br>
+                    <input type="tel" name="phone" id="phone" placeholder="(xx) xxxx-xxxx">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="txtPwd">Senha</label><br>
+                    <input type="password" name="txtPwd" id="txtPwd" placeholder="Digite sua senha">
+                </td>
+                <td>
+                    <label for="txtPwd">Confirme sua senha</label><br>
+                    <input type="password" name="txtPwd" id="txtPwd" placeholder="Digite sua senha novamente">
+                </td>
+            </tr>
+            <tr>
+                <th>Gênero</th>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="radio" value="Feminino" name="genero" id="feminino">
+                    <label for="feminino">Feminino</label>
+                    <input type="radio" value="Masculino" name="genero" id="masculino">
+                    <label for="masculino">Masculino</label>
+                    <input type="radio" value="Outros" name="genero" id="outros">
+                    <label for="outros">Outros</label>
+                    <input type="radio" value="prefiroNaoDizer" name="genero" id="prefironNaoDizer">
+                    <label for="prefiroNaoDizer">Prefiro não dizer</label>
+                </td>
+            </tr>
+            <tfoot>
+                <th colspan="2">
+                    <input type="submit" value="Continuar" id="submit">
+                </th>
+            </tfoot>
+
+    </body>
+</html>
