@@ -19,7 +19,7 @@ h4, a {
 }
 
 .container {
-    background: linear-gradient(75DEG, #af2e30, #2d62b7);
+    background: linear-gradient(75DEG, #fa0004, #035ae6);
     width: 100vw;
     height: 100vh;
     display: grid;
