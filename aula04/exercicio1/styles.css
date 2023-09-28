@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.item {
+    width: 150px;
+    height: 70px;
+    background: #ccc;
+    font-size: 30px;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-around;
+    background: green;
+    width: 80%;
+    margin: 20px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    background: green;
+    width: 80%;
+    margin: 20px;
+}

@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 18px;
+}
+
+.red,
+.blue {
+    color: #fff;
+    width: 200px;
+    height: 200px;
+}
+
+.red {
+    background: tomato;
+}
+
+.blue {
+    background: rgb(60, 60, 255);
+}
+
+.container {
+    height: 500px;
+    border: 1.5px solid #000;
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: space-around;
+
+    align-items: center;
+
+}

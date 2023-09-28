@@ -51,7 +51,9 @@
     outline: none;
     padding-left: 15px;
 }
-
+::placeholder {
+    color: #fff;
+}
 .remember {
     font-size: 10px;
     width: 240px;
@@ -61,15 +63,15 @@
 }
 
 a {
-    padding-left: 57px;
+    padding-left: 56px;
 }
 
-a:link {
+a:link, a:visited {
     color: rgb(177, 177, 177);
 }
 
 .button {
-    background: linear-gradient(120DEG, #311155c4, #6e0625d8, #311155c4, #e4ccffc4);
+    background: linear-gradient(120DEG, #311155c4, #6e0625d8, #311155c4);
     border: none;
     border-radius: 15px;
     width: 250px;
