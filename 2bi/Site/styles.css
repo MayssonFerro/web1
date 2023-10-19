@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100vw;
+    height: 50px;
+    background: green;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between ;
+}
+
+.menu {
+    display: flex;
+}
+
+.button {
+    width: 100px;
+    height: 30px;
+    border: none;
+    margin: 10px;
+    background: none;
+    color: white;
+}
+
+.loginbutton {
+    width: 100px;
+    height: 30px;
+    border: 1px solid yellow;
+    border-radius: 50px;
+    margin: 10px;
+    background: rgb(0, 177, 0);
+    color: white;
+}
+
+.title {
+    color: yellow;
+    padding: 5px;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+    border: 2px solid green;
+    border-radius: 50px;
+}
+
+.footer {
+    text-align: center;
+    padding: 3px;
+    background-color: green;
+    color: white;
+}

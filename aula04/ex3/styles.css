@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 900px;
+    height: 600px;
+    border: 1px solid black;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+}
+
+.rect {
+    width: 100px;
+    height: 250px;
+    border: 1px solid black;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.box1 {
+    position: absolute;
+    background: rgb(238, 255, 0);
+    top: 0;
+    left: 0;
+}
+
+.box2 {
+    position: absolute;
+    background: rgb(0, 38, 255);
+    bottom: 0;
+    left: 0;
+}
+
+.box3 {
+    position: absolute;
+    background: rgb(255, 0, 0);
+    top: 0;
+    right: 0;
+}
+
+.box4 {
+    position: absolute;
+    background: rgb(0, 255, 0);
+    bottom: 0;
+    right: 0;
+}
+
+.box5 {
+    position: absolute;
+    background: rgb(255, 0, 212);
+    top: -125px;
+    left: 415px;
+}
+
+.box6 {
+    position: absolute;
+    background: rgb(0, 174, 255);
+    bottom: -125px;
+    left: 415px;
+}
+
+.box7 {
+    position: absolute;
+    background: rgb(255, 174, 0);
+    transform: rotate(90deg);
+    left: -50px;
+    top: 175px;
+}
+.box8 {
+    position: absolute;
+    background: rgb(0, 255, 213);
+    transform: rotate(90deg);
+    right: -50px;
+    top: 175px;
+}
