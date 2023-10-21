@@ -16,6 +16,52 @@
     height: 100%;
     width: 110px;
     background: rgb(255, 255, 175);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container .menu-lateral .lat-top {
+    height: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .menu-lateral .lat-top .dh {
+    transform: rotate(90deg);
+    display: flex;
+    font-size: 40px;
+}
+
+.container .menu-lateral .lat-top .dot {
+    color: rgb(255, 0, 170);
+}
+
+.container .menu-lateral .lat-mid {
+    height: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .menu-lateral .lat-bottom {
+    height: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+.container .menu-lateral i {
+    font-size: 30px;
+    opacity: 40%;
+    margin: 20px;
+}
+
+.container .menu-lateral .user-1 {
+    border-radius: 50px;
+    width: 40px;
 }
 
 .container .menu {
@@ -30,7 +76,7 @@
 }
 
 .container .menu .box2 {
-    height: 50%;
+    height: 40%;
     display: flex;
     align-items: flex-end;
     padding-bottom: 50px;
