@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+}
+
+.container .menu {
+    background: rgb(33, 33, 66);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container .menu .datta {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.container .menu .datta .bxs-chart{
+    margin-left: 15px;
+    margin-right: 5px;
+    font-size: 42px;
+    color: aqua;
+}
+
+.container .menu .datta h2{
+    font-weight:300;
+}
+
+.container .menu .datta .bx-menu-alt-left{
+    font-size: 24px;
+    color: lightgray;
+    margin-left: 80px;
+    margin-top: 5px;
+}
+
+.container .menu .menutitle {
+    color: #fff;
+    margin: 15px;
+    font-size: 14px;
+}
+
+.container .menu .menucomponent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    color: gray;
+    padding-left: 15px;
+    font-size: 14px;
+    font-weight: 300;
+    height: 50px;
+}
+
+.container .menu .menucomponent h3 {
+    padding-top: 5px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.container .menu .menucomponent i{
+    font-size: 24px;
+}
+
+.container .menu .menucomponent .bx-chevron-right {
+    margin-left: 110px;
+}
+
+.container .menu .selected {
+    background: rgb(20, 20, 44);
+    color: #fff;
+    border-left: 5px solid rgb(0, 81, 255);
+}
+
+.container .menu .menucomponent .aut {
+    margin-left: 90px;
+}
+
+.container .menu .off {
+    color: rgb(82, 82, 109);
+}
+
+.container .main {
+    display: flex;
+    flex-direction: column;
+    background: lightgrey;
+}
+
+.container .main .maintop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.container .main .maintop .topleft {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20px;
+    width: 250px;
+}
+
+.container .main .maintop .topleft i{
+    padding: 2px;
+    font-size: 24px;
+}
+
+.container .main .maintop .bx-fullscreen {
+    margin-right: 20px;
+}
+
+.container .main .maintop .topleft h3{
+    font-weight: 400;
+}
+
+.container .main .maintop .topright {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 20px;
+    width: 95px;
+    gap: 10px;
+}
+
+.container .main .maintop .topright .alert, .container .main .maintop .topright .settings {
+    display: flex;
+    justify-content: row;
+}
+
+.container .main .maintop .topright i{
+    font-size: 24px;
+}
+
+.container .main .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.container .main .content .boxes {
+    padding-top: 40px;
+    height: 100%;
+    display: grid;
+    grid-template-areas: 
+    "box1 box2 box3"
+    "box4 box4 box5"
+    "box4 box4 box6";
+    grid-template-columns: 450px 450px 450px;
+    grid-template-rows: 200px 310px 310px;
+    gap: 40px;
+}
+
+.container .main .content .boxes .box {
+    background: #fff;
+}
+
+.container .main .content .boxes .box-1 {
+    grid-area: box1;
+}
+
+.container .main .content .boxes h3 {
+    font-weight: 400;
+}
+
+.container .main .content .boxes .box-1 .boxtitle, 
+.container .main .content .boxes .box-2 .boxtitle,
+.container .main .content .boxes .box-3 .boxtitle {
+    padding-top: 40px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container .main .content .boxes .box-1 .boxcontent,
+.container .main .content .boxes .box-2 .boxcontent,
+.container .main .content .boxes .box-3 .boxcontent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.container .main .content .boxes .box-1 .boxcontent i,
+.container .main .content .boxes .box-3 .boxcontent i
+{
+    font-size: 42px;
+    color: rgb(0, 81, 255);
+    padding-right: 15px;
+}
+
+.container .main .content .boxes .box-2 .boxcontent i {
+    font-size: 42px;
+    color: red;
+    padding-right: 15px;
+}
+
+.container .main .content .boxes .box-1 .boxcontent h1,
+.container .main .content .boxes .box-2 .boxcontent h1,
+.container .main .content .boxes .box-3 .boxcontent h1 {
+    font-weight: 400;
+}
+
+.container .main .content .boxes .box-1 .boxcontent h3 {
+    font-weight: 400;
+    padding-left: 200px;
+}
+
+.container .main .content .boxes .box-2 .boxcontent h3,
+.container .main .content .boxes .box-3 .boxcontent h3 {
+    padding-left: 170px;
+}
+
+.container .main .content .boxes .box-1 .boxbar,
+.container .main .content .boxes .box-2 .boxbar,
+.container .main .content .boxes .box-3 .boxbar {
+    margin-top: 45px;
+    margin-left: 15px;
+    width: 420px;
+    background: lightgrey;
+    height: 10px;
+}
+
+.container .main .content .boxes .box-1 .bar1 .color{
+    width: 200px;
+    height: 10px;
+    background: rgb(0, 183, 255);
+}
+
+.container .main .content .boxes .box-2 .bar2 .color{
+    width: 150px;
+    height: 10px;
+    background: rgb(146, 146, 209);
+}
+
+.container .main .content .boxes .box-3 .bar3 .color{
+    width: 300px;
+    height: 10px;
+    background: rgb(0, 195, 255);
+}
+
+.container .main .content .boxes .box-2 {
+    grid-area: box2;
+}
+
+.container .main .content .boxes .box-3 {
+    grid-area: box3;
+}
+
+.container .main .content .boxes .box-4 {
+    grid-area: box4;
+}
+
+.container .main .content .boxes .box-4 .box4top {
+    margin-top: 20px;
+    border-left: 5px solid blue;
+    padding-left: 20px;
+}
+
+.container .main .content .boxes .box-4 .users {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;   
+    border-bottom: 1px solid gray;
+}
+
+.container .main .content .boxes .box-4 .users .userbutton {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    color: #fff;
+    padding-right: 10px;
+}
+
+.container .main .content .boxes .box-4 .users .userbutton .rej {
+    background: rgb(146, 146, 209);
+    border-radius: 20px;
+    width: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container .main .content .boxes .box-4 .users .userbutton .apr {
+    background: rgb(0, 195, 255);
+    border-radius: 20px;
+    width: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container .main .content .boxes .box-4 .users i{
+    font-size: 42px;
+}
+
+.container .main .content .boxes .box-5 {
+    grid-area: box5;
+}
+
+.container .main .content .boxes .box-6 {
+    grid-area: box6;
+}   
